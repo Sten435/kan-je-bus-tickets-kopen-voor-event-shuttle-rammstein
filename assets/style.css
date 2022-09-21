@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'rammstein';
+	src: url('https://www.rammstein.de/_next/static/media/GT-America-Mono-Regular.31deb2db.woff') format('woff2');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'rammstein';
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+}
+
+.container h1:nth-child(1) {
+	margin-bottom: 4rem;
+}
+
+#no,
+#yes,
+#yes-link {
+	margin-bottom: 1rem;
+	padding: 1.4rem;
+	border-radius: 0.1rem;
+	color: whitesmoke;
+	text-shadow: 1px 1px 4px rgba(128, 37, 37, 0.439);
+	box-shadow: inset 1px 1px 4px rgba(255, 255, 255, 0.412);
+	background-color: red;
+}
+
+#yes,
+#yes-link {
+	text-shadow: 1px 1px 0px rgba(192, 157, 157, 0.439);
+	background-color: #65d072;
+}
+
+#yes-link {
+	background-color: coral;
+}
+
+.hidden {
+	display: none;
+}
